@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="6" time="72.495">
+<testcase classname="CRM basic functional Testing" name="Add new Comany" time="24.133">
+<system-out><![CDATA[Given User logged into CRM application......................................passed
+Given User navigated to Company.............................................passed
+When User clicks on Create button...........................................passed
+When User enters company Google name........................................passed
+Then Company record will be created.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="CRM basic functional Testing" name="Add new Comany 2" time="22.213">
+<system-out><![CDATA[Given User logged into CRM application......................................passed
+Given User navigated to Company.............................................passed
+When User clicks on Create button...........................................passed
+When User enters company Facebook name......................................passed
+Then Company record will be created.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="CRM basic functional Testing" name="Add new Comany 3" time="22.593">
+<system-out><![CDATA[Given User logged into CRM application......................................passed
+Given User navigated to Company.............................................passed
+When User clicks on Create button...........................................passed
+When User enters company Amazon name........................................passed
+Then Company record will be created.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="CRM basic functional Testing" name="Add new Contact" time="24.398">
+<system-out><![CDATA[Given User logged into CRM application......................................passed
+Given User navigated to Contact.............................................passed
+When User clicks on Create button...........................................passed
+When User enters required details Admin,Admin123............................passed
+Then Contact Admin will be created..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="CRM basic functional Testing" name="Add new Contact 2" time="24.305">
+<system-out><![CDATA[Given User logged into CRM application......................................passed
+Given User navigated to Contact.............................................passed
+When User clicks on Create button...........................................passed
+When User enters required details Test,Test123..............................passed
+Then Contact Test will be created...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="CRM basic functional Testing" name="Add new Contact 3" time="23.596">
+<system-out><![CDATA[Given User logged into CRM application......................................passed
+Given User navigated to Contact.............................................passed
+When User clicks on Create button...........................................passed
+When User enters required details Suite,Suite123............................passed
+Then Contact Suite will be created..........................................passed
+]]></system-out>
+</testcase>
+</testsuite>

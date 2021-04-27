@@ -1,0 +1,666 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7559000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User logged into CRM application",
+            "match": {
+              "location": "stepDefination.stepDefination.user_logged_into_crm_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-27T10:23:00.741Z",
+        "line": 15,
+        "name": "Add new Comany",
+        "description": "",
+        "id": "crm-basic-functional-testing;add-new-comany;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 673000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefination.stepDefination.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1967000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User navigated to Company",
+            "match": {
+              "location": "stepDefination.stepDefination.user_navigated_to_company()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3224000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User clicks on Create button",
+            "match": {
+              "location": "stepDefination.stepDefination.user_clicks_on_create_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 655000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User enters company Google name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Google",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefination.stepDefination.user_enters_required_details(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10044000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Company record will be created",
+            "match": {
+              "location": "stepDefination.stepDefination.company_record_will_be_created()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RegTest"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6402000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User logged into CRM application",
+            "match": {
+              "location": "stepDefination.stepDefination.user_logged_into_crm_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-27T10:23:24.885Z",
+        "line": 16,
+        "name": "Add new Comany",
+        "description": "",
+        "id": "crm-basic-functional-testing;add-new-comany;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 666000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefination.stepDefination.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1284000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User navigated to Company",
+            "match": {
+              "location": "stepDefination.stepDefination.user_navigated_to_company()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3142000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User clicks on Create button",
+            "match": {
+              "location": "stepDefination.stepDefination.user_clicks_on_create_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 692000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User enters company Facebook name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Facebook",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefination.stepDefination.user_enters_required_details(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10023000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Company record will be created",
+            "match": {
+              "location": "stepDefination.stepDefination.company_record_will_be_created()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RegTest"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5740000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User logged into CRM application",
+            "match": {
+              "location": "stepDefination.stepDefination.user_logged_into_crm_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-27T10:23:47.103Z",
+        "line": 17,
+        "name": "Add new Comany",
+        "description": "",
+        "id": "crm-basic-functional-testing;add-new-comany;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 694000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefination.stepDefination.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2301000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User navigated to Company",
+            "match": {
+              "location": "stepDefination.stepDefination.user_navigated_to_company()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3151000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User clicks on Create button",
+            "match": {
+              "location": "stepDefination.stepDefination.user_clicks_on_create_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 655000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User enters company Amazon name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Amazon",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefination.stepDefination.user_enters_required_details(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10049000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Company record will be created",
+            "match": {
+              "location": "stepDefination.stepDefination.company_record_will_be_created()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RegTest"
+          }
+        ]
+      }
+    ],
+    "name": "CRM basic functional Testing",
+    "description": "  I want to use this template for my feature file",
+    "id": "crm-basic-functional-testing",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/CRM_Company.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7313000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User logged into CRM application",
+            "match": {
+              "location": "stepDefination.stepDefination.user_logged_into_crm_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-27T10:23:00.742Z",
+        "line": 24,
+        "name": "Add new Contact",
+        "description": "",
+        "id": "crm-basic-functional-testing;add-new-contact;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 717000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefination.stepDefination.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1892000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User navigated to Contact",
+            "match": {
+              "location": "stepDefination.stepDefination.user_navigated_to_contact()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3204000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User clicks on Create button",
+            "match": {
+              "location": "stepDefination.stepDefination.user_clicks_on_create_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1182000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User enters required details Admin,Admin123",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Admin",
+                  "offset": 29
+                },
+                {
+                  "val": "Admin123",
+                  "offset": 35
+                }
+              ],
+              "location": "stepDefination.stepDefination.user_enters_required_details_(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10053000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Contact Admin will be created",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Admin",
+                  "offset": 8
+                }
+              ],
+              "location": "stepDefination.stepDefination.contact_will_be_created(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RegTest"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7046000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User logged into CRM application",
+            "match": {
+              "location": "stepDefination.stepDefination.user_logged_into_crm_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-27T10:23:25.149Z",
+        "line": 25,
+        "name": "Add new Contact",
+        "description": "",
+        "id": "crm-basic-functional-testing;add-new-contact;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 694000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefination.stepDefination.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2333000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User navigated to Contact",
+            "match": {
+              "location": "stepDefination.stepDefination.user_navigated_to_contact()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3214000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User clicks on Create button",
+            "match": {
+              "location": "stepDefination.stepDefination.user_clicks_on_create_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 971000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User enters required details Test,Test123",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Test",
+                  "offset": 29
+                },
+                {
+                  "val": "Test123",
+                  "offset": 34
+                }
+              ],
+              "location": "stepDefination.stepDefination.user_enters_required_details_(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10041000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Contact Test will be created",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Test",
+                  "offset": 8
+                }
+              ],
+              "location": "stepDefination.stepDefination.contact_will_be_created(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RegTest"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6851000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User logged into CRM application",
+            "match": {
+              "location": "stepDefination.stepDefination.user_logged_into_crm_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-27T10:23:49.456Z",
+        "line": 26,
+        "name": "Add new Contact",
+        "description": "",
+        "id": "crm-basic-functional-testing;add-new-contact;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 662000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefination.stepDefination.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1479000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User navigated to Contact",
+            "match": {
+              "location": "stepDefination.stepDefination.user_navigated_to_contact()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3303000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User clicks on Create button",
+            "match": {
+              "location": "stepDefination.stepDefination.user_clicks_on_create_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1256000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User enters required details Suite,Suite123",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Suite",
+                  "offset": 29
+                },
+                {
+                  "val": "Suite123",
+                  "offset": 35
+                }
+              ],
+              "location": "stepDefination.stepDefination.user_enters_required_details_(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10040000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Contact Suite will be created",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Suite",
+                  "offset": 8
+                }
+              ],
+              "location": "stepDefination.stepDefination.contact_will_be_created(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RegTest"
+          }
+        ]
+      }
+    ],
+    "name": "CRM basic functional Testing",
+    "description": "  I want to use this template for my feature file",
+    "id": "crm-basic-functional-testing",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/CRM_Contact.feature",
+    "tags": []
+  }
+]
